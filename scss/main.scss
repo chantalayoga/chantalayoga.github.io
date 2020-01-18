@@ -1,0 +1,15 @@
+@import './globals/reset';
+@import './globals/variables';
+@import './globals/typography';
+
+// layout
+@import './layouts/container';
+@import './layouts/header';
+@import './layouts/intro';
+@import './layouts/cours';
+
+// Components
+@import './components/navbar';
+@import './components/buttons';
+@import './components/image';
+@import './components/card';
