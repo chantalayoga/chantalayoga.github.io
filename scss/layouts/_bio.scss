@@ -1,3 +1,22 @@
 .bio {
-  // background: $light;
+  background: $light;
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  .signature {
+    font-family: cursive;
+    // font-size: 1.3rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    .image.left,
+    .image.right {
+      float: unset;
+      max-width: unset;
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
 }

@@ -35,4 +35,23 @@
       display: block;
     }
   }
+
+  @media screen and (max-width: 700px) {
+    ul {
+      justify-content: space-between;
+    }
+
+    li {
+      margin-right: unset;
+    }
+
+    li a {
+      display: none;
+    }
+
+    .logo a,
+    li .btn {
+      display: inline-block;
+    }
+  }
 }

@@ -7,9 +7,15 @@
     justify-content: center;
     justify-items: center;
     align-items: center;
+
+    @media screen and (max-width: 800px) {
+      display: block;
+    }
   }
 
   .image img {
     max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

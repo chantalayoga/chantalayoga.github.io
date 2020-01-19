@@ -1,13 +1,40 @@
 .address {
-  background: $light;
-
-  .title {
-  }
+  background: $accent;
+  color: white;
 
   .content {
     margin-top: 2rem;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
+
+    align-items: center;
+    align-content: center;
+
+    @media screen and (max-width: 1000px) {
+      display: block;
+    }
+  }
+
+  .contact {
+    i {
+      margin-right: 1rem;
+    }
+  }
+
+  .social {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    // text-align: center;
+    a {
+      color: white;
+      margin-right: 1rem;
+    }
+  }
+
+  .tagline {
+    margin-top: 0;
+    max-width: 500px;
+    line-height: 1.65;
   }
 }
