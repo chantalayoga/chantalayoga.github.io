@@ -3,5 +3,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .image img {
+    max-width: 300px;
   }
 }

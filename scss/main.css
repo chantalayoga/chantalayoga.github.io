@@ -19,7 +19,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 1.65;
-  color: #333;
+  color: #202020;
 }
 
 p {
@@ -71,7 +71,7 @@ small,
 
 .header {
   color: white;
-  background: url(../../images/jd-mason-xCPdjitY5sQ-unsplash.jpg) center center/cover no-repeat;
+  background: url(../../images/jd-mason-xCPdjitY5sQ-unsplash.jpg) center center/cover no-repeat, #141414;
   position: relative;
   z-index: 2;
 }
@@ -82,14 +82,25 @@ small,
   bottom: 0;
   left: 0;
   position: absolute;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.55);
   z-index: -1;
 }
 
 .header .hero {
   padding: 6rem 0;
   text-align: center;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px #202020;
+}
+
+.header .hero p {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.header .accent {
+  color: #f2669a;
 }
 
 .intro .container {
@@ -98,10 +109,21 @@ small,
   -ms-grid-columns: 1fr 1fr;
       grid-template-columns: 1fr 1fr;
   gap: 2rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro .image img {
+  max-width: 300px;
 }
 
 .cours {
-  background: #f5f5f5;
+  background: #fdeaf7;
 }
 
 .cours .container {
@@ -124,6 +146,91 @@ small,
       -ms-flex: 100%;
           flex: 100%;
   text-align: center;
+}
+
+.cours p:last-of-type {
+  margin-bottom: 0;
+  color: #d34a6d;
+}
+
+.cours .title {
+  font-weight: 700;
+}
+
+.price .content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price .title {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.price .box {
+  color: #202020;
+  background: #f2669a;
+  border-radius: 4px;
+  padding: 2rem;
+  -webkit-box-shadow: 0 4px 4px 0 #f2669a;
+          box-shadow: 0 4px 4px 0 #f2669a;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price .box p:first-of-type {
+  font-size: 3rem;
+}
+
+.price .image img {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.price h4 {
+  max-width: 600px;
+  line-height: 1.6;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.price .link {
+  text-align: center;
+}
+
+.address {
+  background: #fdeaf7;
+}
+
+.address .content {
+  margin-top: 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  grid-gap: 2rem;
+}
+
+.footer {
+  background: #4e346a;
+  color: white;
 }
 
 .navbar ul {
@@ -160,7 +267,7 @@ small,
 }
 
 .navbar a:not(.btn):not(.logo):hover {
-  border-bottom: 2px solid pink;
+  border-bottom: 2px solid #f2669a;
 }
 
 .navbar .logo {
@@ -193,21 +300,21 @@ small,
 }
 
 .btn-primary {
-  background: pink;
+  background: #f2669a;
   color: white;
 }
 
 .btn-secondary {
-  border: 1px solid pink;
-  color: pink;
+  border: 1px solid #f2669a;
+  color: #f2669a;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
 .btn-accent {
-  color: teal;
+  color: #d34a6d;
   padding: 0.25rem;
-  border-bottom: 2px dotted teal;
+  border-bottom: 2px dotted #d34a6d;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -224,6 +331,26 @@ small,
   width: 100%;
 }
 
+.image.left {
+  float: left;
+  padding: 0 1.5em 1em 0;
+  top: 0.25em;
+}
+
+.image.right {
+  float: right;
+  padding: 0 0 1em 1.5em;
+  top: 0.25em;
+}
+
+.image.left, .image.right {
+  max-width: 40%;
+}
+
+.clearfix {
+  clear: both;
+}
+
 .card {
   background: white;
   padding: 2rem;
@@ -231,5 +358,9 @@ small,
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  max-width: 300px;
+  min-width: 300px;
+  -webkit-box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=main.css.map */
