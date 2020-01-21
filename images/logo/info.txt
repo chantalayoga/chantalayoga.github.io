@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Aleo-Light
+font link: https://alessiolaiso.com/aleo-font
+font author: Alessio Laiso
+font author site: https://alessiolaiso.com/
+Slogan Font: Questrial-Regular.otf
+
+icon designer: N A N A
+icon designer link: /nan_s
+        
+{"bg-gradient-0":"#C93A5F","bg-gradient-1":"#EFB0CA","icon":"#ffffff","font":"#ffffff","slogan":"#ffffff"}
+      
