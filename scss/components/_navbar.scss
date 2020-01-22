@@ -30,17 +30,8 @@
     justify-self: flex-start;
     margin-right: auto;
 
-    .image {
-    }
-
     img {
-      height: 200px;
-      // width: 100%;
-      // display: block;
-      // max-height: 5rem;
-      // height: 10rem;
-      // max-width: 10rem;
-      // object-fit: cover;
+      max-width: 3rem;
       box-shadow: unset;
     }
   }

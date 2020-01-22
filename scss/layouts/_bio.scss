@@ -5,9 +5,20 @@
     margin-bottom: 2rem;
   }
 
+  .signature-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 2rem;
+    justify-content: start;
+    align-items: center;
+  }
+
   .signature {
     font-family: cursive;
-    // font-size: 1.3rem;
+  }
+
+  .signature:nth-child(2) {
+    margin-bottom: 0;
   }
 
   @media screen and (max-width: 600px) {
