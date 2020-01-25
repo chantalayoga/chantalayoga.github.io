@@ -1,8 +1,17 @@
 .bio {
   background: $light;
+  text-align: justify;
 
   h1 {
     margin-bottom: 2rem;
+  }
+
+  .image.left img {
+    max-height: 450px;
+    object-fit: cover;
+    object-position: top;
+    filter: grayscale(1);
+    border-radius: 300px;
   }
 
   .signature-box {
@@ -19,6 +28,19 @@
 
   .signature:nth-child(2) {
     margin-bottom: 0;
+  }
+
+  blockquote {
+    border-left: 3px solid $accent;
+    padding-left: 1rem;
+    display: inline-block;
+    margin: 1rem auto;
+    margin-bottom: 2rem;
+    max-width: 400px;
+
+    p {
+      margin-bottom: 0;
+    }
   }
 
   @media screen and (max-width: 600px) {

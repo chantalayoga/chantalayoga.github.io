@@ -1,0 +1,17 @@
+.reference {
+  background: white;
+  color: $dark;
+  padding: 2rem;
+  max-width: 450px;
+  box-shadow: $boxShadow;
+  border-radius: 4px;
+  text-align: justify;
+
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .signature {
+    font-family: cursive;
+  }
+}

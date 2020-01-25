@@ -1,7 +1,7 @@
 .price {
   .content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 3rem;
 
     justify-content: center;
@@ -20,6 +20,7 @@
     border-radius: 4px;
     padding: 2rem;
     box-shadow: 0 4px 4px 0 $primary;
+    text-align: center;
 
     display: grid;
     justify-content: center;
@@ -36,7 +37,7 @@
     }
   }
 
-  h4 {
+  h5 {
     max-width: 600px;
     line-height: 1.6;
     margin-left: auto;
