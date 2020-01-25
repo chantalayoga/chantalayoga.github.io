@@ -1,7 +1,6 @@
 .references {
   background: $secondary;
   color: white;
-  // position: relative;
 
   .container {
     max-width: 800px;
@@ -14,12 +13,11 @@
     margin-bottom: 3rem;
     text-align: center;
     line-height: 1.6;
-    // z-index: 20;
+    max-width: 600px;
   }
 
   .reference {
-    margin-bottom: 2rem;
-    // z-index: 20;
+    margin-bottom: 3rem;
   }
 
   .reference:nth-of-type(even) {
@@ -35,7 +33,7 @@
     z-index: -1;
 
     img {
-      // width: 100%;
+      width: 100%;
       z-index: -1;
     }
   }

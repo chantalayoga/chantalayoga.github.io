@@ -1,7 +1,6 @@
 .header {
   color: white;
-  background: url(../../images/jd-mason-xCPdjitY5sQ-unsplash.jpg) center
-      center/cover no-repeat,
+  background: url(../../images/hero.jpg) center center/cover no-repeat,
     rgb(20, 20, 20);
   position: relative;
   z-index: 2;
@@ -26,15 +25,20 @@
     text-shadow: 1px 1px 1px $dark;
 
     p {
-      font-size: 1.3rem;
+      font-size: 1.2rem;
       letter-spacing: 1px;
-      max-width: 400px;
+      max-width: 500px;
       margin: 0 auto;
-      // margin-top: 2rem;
+      margin-top: 2rem;
+      font-weight: 300;
     }
   }
 
   .accent {
     color: $primary;
+  }
+
+  .underline {
+    border-bottom: 2px solid $accent;
   }
 }

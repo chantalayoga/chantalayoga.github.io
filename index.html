@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Chantala Yoga | Cours de Yoga</title>
+    <link
+      rel="icon"
+      href="./images/logo/favicon-32x32.png"
+      sizes="32x32"
+      type="image/png"
+    />
 
     <link rel="stylesheet" href="./dist/css/main.min.css" />
   </head>
@@ -22,18 +28,19 @@
                   alt=""
               /></span>
             </li>
-            <li><a href="#">Horaire</a></li>
-            <li><a href="#">A propos</a></li>
-            <li><a href="#">Adresse</a></li>
-            <li><a class="btn btn-primary" href="#cta">Me contacter</a></li>
+            <li><a href="#cours">Horaire</a></li>
+            <li><a href="#bio">À propos</a></li>
+            <li><a href="#contact">Adresse</a></li>
+            <li><a class="btn btn-primary" href="#contact">Me contacter</a></li>
           </ul>
         </nav>
 
         <div class="hero">
           <h1>Studio Chantala <span class="accent">Yoga</span></h1>
           <p>
-            Vous êtes invités à m'accompagné pour un cours de yoga chez moi,
-            dans une ambiance chaleureuse et décontractée.
+            Vous êtes invités à m'accompagner pour un cours de yoga chez moi,
+            dans une ambiance <span class="underline"> chaleureuse</span> et
+            décontractée.
           </p>
         </div>
       </div>
@@ -63,20 +70,20 @@
         </div>
         <div class="intro-image">
           <span class="image">
-            <img src="./images/yoga-horizon.png" alt="" />
+            <img src="./images/yoga-horizon.png" alt="yoga horizon" />
           </span>
         </div>
       </div>
     </section>
 
     <!-- COURS -->
-    <section class="cours">
+    <section class="cours" id="cours">
       <div class="container">
         <h1>Horaire des Cours</h1>
 
         <div class="card">
           <span class="image">
-            <img src="./images/people-exercising-892682.jpg" alt="" />
+            <img src="./images/people-exercising.jpg" alt="people exercising" />
           </span>
           <h3>Jeudi</h3>
           <p class="title">Yoga doux et régénérateur</p>
@@ -86,10 +93,7 @@
 
         <div class="card">
           <span class="image">
-            <img
-              src="./images/woman-doing-yoga-pose-on-pink-yoga-mat-374589.jpg"
-              alt=""
-            />
+            <img src="./images/woman-on-yoga-mat.jpg" alt="woman on yoga mat" />
           </span>
           <h3>Samedi</h3>
           <p class="title">Yoga flow</p>
@@ -109,7 +113,7 @@
         </h5>
 
         <div class="reference">
-          <img src="./images/svg/icon-quotes.svg" alt="" />
+          <img src="./images/svg/icon-quotes.svg" alt="icon quotes" />
           <p>
             Les cours de Chantal sont un pur délice. Juste assez de
             relaxation, juste assez d'efforts et d'étirements. Tout cela dans
@@ -120,7 +124,7 @@
         </div>
 
         <div class="reference">
-          <img src="./images/svg/icon-quotes.svg" alt="" />
+          <img src="./images/svg/icon-quotes.svg" alt="icon quotes" />
           <p>
             Avec en bonus la présence toute simple et remplie d'amour de Bella,
             sa caniche royal, quel beau cadeau, si près dans notre coin chéri.
@@ -133,7 +137,7 @@
         <div class="bg-art">
           <img
             src="./images/logo/vector/isolated-monochrome-white.svg"
-            alt=""
+            alt="logo"
           />
         </div>
       </div>
@@ -145,7 +149,7 @@
         <h1 class="title">Tarifs</h1>
         <div class="content">
           <span class="image">
-            <img src="./images/svg/meditation-4126149.svg" alt="" />
+            <img src="./images/svg/meditation-pose.svg" alt="meditation pose" />
           </span>
           <div class="box">
             <p>$12</p>
@@ -156,16 +160,16 @@
             <p>pour 10 séances</p>
           </div>
           <span class="image">
-            <img src="./images/svg/pilates-3109925.svg" alt="" />
+            <img src="./images/svg/yoga-pose.svg" alt="yoga pose" />
           </span>
         </div>
         <br />
         <h5>
-          Pour vous inscrire à un cours, vous pouvez m'écrire un courriel,
-          m'appeller ou m'.
+          Pour vous inscrire à un cours, vous pouvez m'appeller ou me contacter
+          sur messenger.
         </h5>
         <div class="link">
-          <a class="btn btn-secondary" href="#cta">M'inscrire</a>
+          <a class="btn btn-secondary" href="#contact">M'inscrire</a>
         </div>
       </div>
     </section>
@@ -176,8 +180,7 @@
         <h1>À propos de moi</h1>
 
         <span class="image left ">
-          <!-- <img src="./images/silhouette-2512805_640.jpg" alt="" /> -->
-          <img src="./images/chantal-et-bella.png" alt="" />
+          <img src="./images/chantal-namaste.png" alt="chantal namaste" />
         </span>
 
         <p>
@@ -201,7 +204,7 @@
         </blockquote>
 
         <span class="image right">
-          <img src="./images/stones-944149_640.jpg" alt="" />
+          <img src="./images/stones-and-flower.jpg" alt="stones and flower" />
         </span>
         <p>
           Le yoga et la méditation font maintenant partie intégrante de ma vie.
@@ -234,7 +237,7 @@
     </section>
 
     <!-- Adresse -->
-    <section class="address" id="cta">
+    <section class="address" id="contact">
       <div class="container">
         <h1 class="title">Contact et Adresse</h1>
         <div class="content">
@@ -243,16 +246,34 @@
               N'hésitez pas à m'appeller ou à m'écrire pour suivre mes cours.
             </h4>
             <div class="contact">
-              <p><i class="fas fa-phone"></i> 438 522-3269</p>
-              <p><i class="fas fa-envelope"></i> chantalayoga@gmail.com</p>
               <p>
-                <i class="fas fa-home"></i> 1 Rue des Mélèzes, Austin, J1B 1B0
+                <svg class="icon icon-phone">
+                  <use xlink:href="#icon-phone"></use></svg
+                >438 522-3269
+              </p>
+              <p>
+                <svg class="icon icon-envelop">
+                  <use xlink:href="#icon-envelop"></use>
+                </svg>
+                chantalayoga@gmail.com
+              </p>
+              <p>
+                <svg class="icon icon-home">
+                  <use xlink:href="#icon-home"></use>
+                </svg>
+                1 Rue des Mélèzes, Austin, J1B 1B0
               </p>
               <p></p>
             </div>
             <div class="social">
-              <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
-              <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+              <a href="#"
+                ><svg class="icon icon-facebook2 icon-2x">
+                  <use xlink:href="#icon-facebook2"></use></svg
+              ></a>
+              <a href="https://www.facebook.com/chantal.arseneau.9"
+                ><svg class="icon icon-instagram icon-2x">
+                  <use xlink:href="#icon-instagram"></use></svg
+              ></a>
             </div>
           </div>
           <div class="google-map">
@@ -261,6 +282,7 @@
               frameborder="0"
               style="border:0;"
               allowfullscreen=""
+              SameSite="None"
             ></iframe>
           </div>
         </div>
@@ -270,12 +292,61 @@
     <footer class="footer">
       <div class="container">
         <p>&copy; 2020 Chantal Arseneau - Tous droits réservés.</p>
-        <p>Site web créé par <a href="#">Patrick Touchette</a></p>
+        <p>
+          Site web créé par
+          <a href="https://patricktouchette.com">Patrick Touchette</a>.
+        </p>
       </div>
     </footer>
-    <script
-      src="https://kit.fontawesome.com/303fc4d936.js"
-      crossorigin="anonymous"
-    ></script>
+
+    <!-- ================================ -->
+    <!-- SVG ICONS -->
+    <!-- ================================ -->
+    <svg
+      aria-hidden="true"
+      style="position: absolute; width: 0; height: 0; overflow: hidden;"
+      version="1.1"
+      xmlns="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+    >
+      <defs>
+        <symbol id="icon-home" viewBox="0 0 32 32">
+          <title>home</title>
+          <path
+            d="M32 18.451l-16-12.42-16 12.42v-5.064l16-12.42 16 12.42zM28 18v12h-8v-8h-8v8h-8v-12l12-9z"
+          ></path>
+        </symbol>
+        <symbol id="icon-phone" viewBox="0 0 32 32">
+          <title>phone</title>
+          <path
+            d="M22 20c-2 2-2 4-4 4s-4-2-6-4-4-4-4-6 2-2 4-4-4-8-6-8-6 6-6 6c0 4 4.109 12.109 8 16s12 8 16 8c0 0 6-4 6-6s-6-8-8-6z"
+          ></path>
+        </symbol>
+        <symbol id="icon-envelop" viewBox="0 0 32 32">
+          <title>envelop</title>
+          <path
+            d="M29 4h-26c-1.65 0-3 1.35-3 3v20c0 1.65 1.35 3 3 3h26c1.65 0 3-1.35 3-3v-20c0-1.65-1.35-3-3-3zM12.461 17.199l-8.461 6.59v-15.676l8.461 9.086zM5.512 8h20.976l-10.488 7.875-10.488-7.875zM12.79 17.553l3.21 3.447 3.21-3.447 6.58 8.447h-19.579l6.58-8.447zM19.539 17.199l8.461-9.086v15.676l-8.461-6.59z"
+          ></path>
+        </symbol>
+        <symbol id="icon-facebook2" viewBox="0 0 32 32">
+          <title>facebook2</title>
+          <path
+            d="M29 0h-26c-1.65 0-3 1.35-3 3v26c0 1.65 1.35 3 3 3h13v-14h-4v-4h4v-2c0-3.306 2.694-6 6-6h4v4h-4c-1.1 0-2 0.9-2 2v2h6l-1 4h-5v14h9c1.65 0 3-1.35 3-3v-26c0-1.65-1.35-3-3-3z"
+          ></path>
+        </symbol>
+        <symbol id="icon-instagram" viewBox="0 0 32 32">
+          <title>instagram</title>
+          <path
+            d="M16 2.881c4.275 0 4.781 0.019 6.462 0.094 1.563 0.069 2.406 0.331 2.969 0.55 0.744 0.288 1.281 0.638 1.837 1.194 0.563 0.563 0.906 1.094 1.2 1.838 0.219 0.563 0.481 1.412 0.55 2.969 0.075 1.688 0.094 2.194 0.094 6.463s-0.019 4.781-0.094 6.463c-0.069 1.563-0.331 2.406-0.55 2.969-0.288 0.744-0.637 1.281-1.194 1.837-0.563 0.563-1.094 0.906-1.837 1.2-0.563 0.219-1.413 0.481-2.969 0.55-1.688 0.075-2.194 0.094-6.463 0.094s-4.781-0.019-6.463-0.094c-1.563-0.069-2.406-0.331-2.969-0.55-0.744-0.288-1.281-0.637-1.838-1.194-0.563-0.563-0.906-1.094-1.2-1.837-0.219-0.563-0.481-1.413-0.55-2.969-0.075-1.688-0.094-2.194-0.094-6.463s0.019-4.781 0.094-6.463c0.069-1.563 0.331-2.406 0.55-2.969 0.288-0.744 0.638-1.281 1.194-1.838 0.563-0.563 1.094-0.906 1.838-1.2 0.563-0.219 1.412-0.481 2.969-0.55 1.681-0.075 2.188-0.094 6.463-0.094zM16 0c-4.344 0-4.887 0.019-6.594 0.094-1.7 0.075-2.869 0.35-3.881 0.744-1.056 0.412-1.95 0.956-2.837 1.85-0.894 0.888-1.438 1.781-1.85 2.831-0.394 1.019-0.669 2.181-0.744 3.881-0.075 1.713-0.094 2.256-0.094 6.6s0.019 4.887 0.094 6.594c0.075 1.7 0.35 2.869 0.744 3.881 0.413 1.056 0.956 1.95 1.85 2.837 0.887 0.887 1.781 1.438 2.831 1.844 1.019 0.394 2.181 0.669 3.881 0.744 1.706 0.075 2.25 0.094 6.594 0.094s4.888-0.019 6.594-0.094c1.7-0.075 2.869-0.35 3.881-0.744 1.050-0.406 1.944-0.956 2.831-1.844s1.438-1.781 1.844-2.831c0.394-1.019 0.669-2.181 0.744-3.881 0.075-1.706 0.094-2.25 0.094-6.594s-0.019-4.887-0.094-6.594c-0.075-1.7-0.35-2.869-0.744-3.881-0.394-1.063-0.938-1.956-1.831-2.844-0.887-0.887-1.781-1.438-2.831-1.844-1.019-0.394-2.181-0.669-3.881-0.744-1.712-0.081-2.256-0.1-6.6-0.1v0z"
+          ></path>
+          <path
+            d="M16 7.781c-4.537 0-8.219 3.681-8.219 8.219s3.681 8.219 8.219 8.219 8.219-3.681 8.219-8.219c0-4.537-3.681-8.219-8.219-8.219zM16 21.331c-2.944 0-5.331-2.387-5.331-5.331s2.387-5.331 5.331-5.331c2.944 0 5.331 2.387 5.331 5.331s-2.387 5.331-5.331 5.331z"
+          ></path>
+          <path
+            d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"
+          ></path>
+        </symbol>
+      </defs>
+    </svg>
   </body>
 </html>

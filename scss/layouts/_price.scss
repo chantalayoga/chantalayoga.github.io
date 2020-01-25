@@ -6,7 +6,7 @@
 
     justify-content: center;
     justify-items: center;
-    align-items: center;
+    // align-items: center;
   }
 
   .title {
@@ -32,6 +32,7 @@
   }
 
   .image {
+    align-self: center;
     img {
       box-shadow: none;
     }
@@ -47,5 +48,24 @@
 
   .link {
     text-align: center;
+  }
+
+  @media screen and (max-width: 500px) {
+    .content {
+      display: block;
+    }
+
+    .box {
+      max-width: 200px;
+      margin: 0 auto;
+    }
+
+    .box:first-of-type {
+      margin-bottom: 2rem;
+    }
+
+    .image {
+      display: none;
+    }
   }
 }
